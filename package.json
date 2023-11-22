@@ -1,0 +1,14 @@
+{
+  "name": "portfoliov2-bundle",
+  "version": "1.0.0",
+  "description": "This is the supportive bundle file for portfolio animations in JS",
+  "main": "./scripts/portfolio-ani.js",
+  "scripts": {
+    "start": "parcel ./scripts/.portfolio-ani.js --hmr-port 50619"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.3"
+  }
+}
