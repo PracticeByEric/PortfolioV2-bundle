@@ -2,12 +2,19 @@
   "name": "portfoliov2-bundle",
   "version": "1.0.0",
   "description": "This is the supportive bundle file for portfolio animations in JS",
-  "main": "./scripts/portfolio-ani.js",
+  "main": "./scripts/portfolioAni.js",
   "scripts": {
-    "start": "parcel ./scripts/.portfolio-ani.js --hmr-port 50619"
+    "start": "parcel ./scripts/portfolioAni.js --hmr-port 50619"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PracticeByEric/PortfolioV2-bundle.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PracticeByEric/PortfolioV2-bundle/issues"
+  },
   "dependencies": {
     "parcel": "^2.10.3"
   }
